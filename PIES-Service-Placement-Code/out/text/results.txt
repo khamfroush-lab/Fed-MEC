@@ -1,0 +1,25 @@
+[===== CONFIGURATION ======]
+N_EDGES_FUNC = lambda: 10
+N_USERS_FUNC = lambda: 1000
+N_SERVICES_FUNC = lambda: 100
+N_MODELS_MAX_FUNC = lambda: random.randint(10, 20)
+
+COMM_E_FUNC = lambda: random.randint(100, 200)
+COMP_E_FUNC = lambda: random.randint(100, 200)
+STOR_E_FUNC = lambda: random.randint(100, 200)
+
+COMM_S_FUNC = lambda: random.randint(10, 50)
+COMP_S_FUNC = lambda: random.randint(10, 50)
+STOR_S_FUNC = lambda: random.randint(10, 50)
+
+ACC_R_FUNC = lambda: random.uniform(0.5, 1.0)
+DEL_R_FUNC = lambda: random.uniform(1.0, 5.0)
+ACC_S_FUNC = lambda: random.uniform(0.75, 1.0)
+
+[===== RESULTS ======]
+alg      num_place_sm    num_scheduled_sm    expected_QoS    alg_runtime
+-----  --------------  ------------------  --------------  -------------
+Opt               117                 318        156.94       9.01395
+Gr                118                 304        149.33       0.320573
+KS                110                 101         49.2299     2.61707
+RR                 56                  50         24.6108     0.00915694
