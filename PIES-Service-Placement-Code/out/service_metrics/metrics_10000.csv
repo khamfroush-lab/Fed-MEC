@@ -1,0 +1,7 @@
+,service,model,acc,cpu
+0,img-class,AlexNet,0.6402,129257051.1872
+1,img-class,DenseNet,0.8294,1288675947.2139
+2,img-class,GoogLeNet,0.7661,367018478.6283
+3,img-class,MobileNet,0.7815,158662135.3228
+4,img-class,ResNet,0.7641,267029373.1763
+5,img-class,SqueezeNet,0.6645,213847898.9115
